@@ -19,6 +19,11 @@ dependencies {
     // html
     implementation("org.springframework.boot:spring-boot-starter-thymeleaf:3.0.0")
 
+    // domain
+    implementation("dnsjava:dnsjava:3.5.2")
+
+    // Elastic load balancing
+    implementation("com.amazonaws:aws-java-sdk-elasticloadbalancingv2:1.12.537")
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
