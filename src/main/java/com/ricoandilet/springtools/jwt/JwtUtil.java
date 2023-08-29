@@ -2,11 +2,11 @@ package com.ricoandilet.springtools.jwt;
 
 import com.fasterxml.jackson.databind.JavaType;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.ricoandilet.springtools.json.JsonUtil;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jws;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
-import json.JsonUtil;
 
 import java.io.IOException;
 import java.security.PrivateKey;
