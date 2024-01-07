@@ -42,7 +42,7 @@ public class SesUtil {
 
     public static final SesClient sesClient = SesClient.builder()
             .region(Region.US_WEST_1)
-            .credentialsProvider(StaticCredentialsProvider.create(AwsBasicCredentials.create(YoulandConstant.ACCESS_KEY,YoulandConstant.SECRET_KEY)))
+            .credentialsProvider(StaticCredentialsProvider.create(AwsBasicCredentials.create("ACCESS_KEY","SECRET_KEY")))
             .build();
 
     public static List<String> addDomain(String domain){
